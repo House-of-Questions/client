@@ -1,7 +1,7 @@
 <template>
   <q-layout view="lHh Lpr lFf">
     <q-header elevated>
-      <q-toolbar>
+      <q-toolbar class="bg-white text-black">
         <q-btn
           flat
           dense
@@ -12,16 +12,13 @@
         />
 
         <q-toolbar-title>
-          Puzzle Centre
+          House of Questions
         </q-toolbar-title>
-
-        <div>Quasar v{{ $q.version }}</div>
       </q-toolbar>
     </q-header>
 
     <q-drawer
       v-model="leftDrawerOpen"
-      show-if-above
       bordered
       content-class="bg-grey-2"
     >
@@ -29,16 +26,16 @@
         <q-item-label header>House of Questions</q-item-label>
         <q-item clickable tag="a" target="_blank" href="https://github.com/House-of-Questions">
           <q-item-section avatar>
-            <q-icon name="code" />
+            <q-icon name="mdi-github-circle" />
           </q-item-section>
           <q-item-section>
             <q-item-label>Github</q-item-label>
             <q-item-label caption>github.com/House-of-Questions</q-item-label>
           </q-item-section>
         </q-item>
-        <q-item clickable tag="a" target="_blank" href="https://twitter.com/HouseOfQuestions">
+        <!-- <q-item clickable tag="a" target="_blank" href="https://twitter.com/HouseOfQuestions">
           <q-item-section avatar>
-            <q-icon name="rss_feed" />
+            <q-icon name="mdi-twitter" />
           </q-item-section>
           <q-item-section>
             <q-item-label>Twitter</q-item-label>
@@ -47,13 +44,13 @@
         </q-item>
         <q-item clickable tag="a" target="_blank" href="https://fb.me/HouseOfQuestions">
           <q-item-section avatar>
-            <q-icon name="public" />
+            <q-icon name="mdi-facebook" />
           </q-item-section>
           <q-item-section>
             <q-item-label>Facebook</q-item-label>
             <q-item-label caption>@HouseOfQuestions</q-item-label>
           </q-item-section>
-        </q-item>
+        </q-item> -->
       </q-list>
     </q-drawer>
 

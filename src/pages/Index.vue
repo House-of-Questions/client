@@ -1,11 +1,16 @@
 <template>
-  <q-page class="flex flex-center">
-    <img alt="Quasar logo" src="~assets/quasar-logo-full.svg">
+  <q-page class="flex">
+    <Venn class="full-width"/>
   </q-page>
 </template>
 
 <script>
+import Venn from 'components/Venn'
+
 export default {
-  name: 'PageIndex'
+  name: 'PageIndex',
+  components: {
+    Venn
+  }
 }
 </script>
