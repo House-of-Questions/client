@@ -1,8 +1,8 @@
 {
-  "name": "puzzle-centre",
+  "name": "client",
   "version": "0.0.1",
-  "description": "The Puzzle Centre",
-  "productName": "Puzzle Centre",
+  "description": "House of Questions client",
+  "productName": "House of Questions",
   "cordovaId": "org.cordova.quasar.app",
   "capacitorId": "",
   "author": "sohcah <mail@sohcah.dev>",

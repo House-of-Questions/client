@@ -1,6 +1,6 @@
-# Puzzle Centre (puzzle-centre)
+# House of Questions (client)
 
-The Puzzle Centre
+House of Questions
 
 ## Install the dependencies
 ```bash
